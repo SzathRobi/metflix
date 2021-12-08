@@ -1,0 +1,40 @@
+.get_started_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.get_started_form h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  line-height: 1.4rem;
+}
+
+.get_started_form input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.get_started_form button {
+  padding: 0.7rem 1rem;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-size: 1em;
+}
+
+@media (min-width: 550px) {
+  .get_started_form input {
+    font-size: 1rem;
+  }
+  .get_started_form h3 {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+}
